@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const config = require("./config");
-const todoRoutes = require("./routes/todos");
+const todoRoutes = require("./routes/todo");
 
 const app = express();
 const PORT = config.PORT;
