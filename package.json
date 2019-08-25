@@ -1,0 +1,28 @@
+{
+  "name": "todolist-arkounting",
+  "version": "1.0.0",
+  "description": "A node.js driven todo list api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./server/app.js",
+    "start": "./server/app.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "JWT"
+  ],
+  "author": "Mbonu Chukwudinma",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
