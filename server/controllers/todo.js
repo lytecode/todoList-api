@@ -59,7 +59,7 @@ module.exports = {
   /**
    * @route   PUT /api/todos/:todoId
    * @desc    UPDATE todo
-   * @access  Public
+   * @access  Private
    */
   updateTodo: async (req, res) => {
     const { todoId } = req.params;
@@ -92,7 +92,7 @@ module.exports = {
   /**
    * @route   DELETE /api/todos/:todoId
    * @desc    DELETE Todo
-   * @access  Public
+   * @access  Private
    */
   deleteTodo: async (req, res) => {
     const { todoId } = req.params;
